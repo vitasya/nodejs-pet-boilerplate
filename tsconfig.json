@@ -1,0 +1,31 @@
+{
+   "compilerOptions": {
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "module": "commonjs",
+      "allowJs": true,
+      "lib": [
+         "es6", "es2018", "DOM"
+      ],
+      "esModuleInterop": true,
+      "target": "es6",
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "dist",
+      "baseUrl": "./",
+      "paths": {
+         "*": [
+            "./node_modules/*"
+         ]
+      }
+   },
+   "include": [
+      "src/**/*",
+   ],
+   "exclude": [
+      "node_modules"
+   ]
+}
