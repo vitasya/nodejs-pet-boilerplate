@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-pet-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitasya/nodejs-pet-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitasya/nodejs-pet-boilerplate/issues"
+  },
+  "homepage": "https://github.com/vitasya/nodejs-pet-boilerplate#readme",
+  "dependencies": {
+    "pg": "^8.7.3",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.45"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "jest": "^27.5.1"
+  }
+}
